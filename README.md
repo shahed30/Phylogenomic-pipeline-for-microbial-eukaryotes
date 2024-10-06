@@ -3,46 +3,44 @@
 A Phylogenomic workflow for uncultivable microbial eukaryotes using single-cell RNA sequencing - single cell isolation to species tree construction
 
 (A) Phylogenomic pipeline
-
 1. RAW sequence data processing
-QC checking
-Trimming
-Assembling
-
+  a. QC checking
+  b. Trimming
+  c. Assembling
 
 2. Post assembly pipeline and single gene tree construction
-(I) Post assembly pipeline
-(II) Summarize nucleotide composition statistics for a fasta file
-(III) Multiple sequence alignments (MSA)
-(IV) Single gene tree construction
+   a. Post assembly pipeline
+   b. Summarize nucleotide composition statistics for a fasta file
+   c. Multiple sequence alignments (MSA)
+   d. Single gene tree construction
 
 
 3. Data curation
-(I) Select clades of interest from large trees using taxonomic specifications
-(II) Remove low coverage sequences
-(III) Only keeping ortholog sequences
+   a. Select clades of interest from large trees using taxonomic specifications
+   b. Remove low coverage sequences
+   c. Only keeping ortholog sequences
 
 
 4. Concatenation-based phylogenomic approach
-(I) Multiple sequence alignments (MSA) (only for dataset includes single-copy genes)
-(II) Trimming MSA
-(III) Concatenation of MSA
-(IV) Maximum likelihood Tree
-(V) Likelihood mapping
+   a. Multiple sequence alignments (MSA) (only for dataset includes single-copy genes)
+   b. Trimming MSA
+   c. Concatenation of MSA
+   d. Maximum likelihood Tree
+   e. Likelihood mapping
 
 
 5. Species tree using Asteroid
-(I) Single gene tree construction (dataset includes multi-copy genes)
-(II) Species tree construction
+   a. Single gene tree construction (dataset includes multi-copy genes)
+   b. Species tree construction
 
 
 (B) rRNA genes reconstruction
 
-(I) Read mapping
-(II) Contig assembling
+1. Read mapping
+2. Contig assembling
 
 (C) rRNA phylogeny
 
-(I) Multiple sequence alignments (MSA)
-(II) Trimming MSA
-(III) Maximum likelihood Tree
+  a. Multiple sequence alignments (MSA)
+  b. Trimming MSA
+  c. Maximum likelihood Tree
